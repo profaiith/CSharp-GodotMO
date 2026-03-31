@@ -1,0 +1,33 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodotMo.Shared", "shared\src\GodotMo.Shared\GodotMo.Shared.csproj", "{08E6F7CA-539F-4A72-BC5A-A7E5F40F08E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GodotMo.Backend", "backend\src\GodotMo.Backend\GodotMo.Backend.csproj", "{A6A712E5-36F5-4D96-95D6-6B5E4A2D1A31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameClient", "client\GameClient.csproj", "{C9E451A7-1452-4EFB-89C8-3E6F2187467B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08E6F7CA-539F-4A72-BC5A-A7E5F40F08E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08E6F7CA-539F-4A72-BC5A-A7E5F40F08E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08E6F7CA-539F-4A72-BC5A-A7E5F40F08E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08E6F7CA-539F-4A72-BC5A-A7E5F40F08E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A712E5-36F5-4D96-95D6-6B5E4A2D1A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A712E5-36F5-4D96-95D6-6B5E4A2D1A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A712E5-36F5-4D96-95D6-6B5E4A2D1A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A712E5-36F5-4D96-95D6-6B5E4A2D1A31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E451A7-1452-4EFB-89C8-3E6F2187467B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E451A7-1452-4EFB-89C8-3E6F2187467B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E451A7-1452-4EFB-89C8-3E6F2187467B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E451A7-1452-4EFB-89C8-3E6F2187467B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
